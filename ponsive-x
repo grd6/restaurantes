@@ -1,0 +1,71 @@
+[33mcommit bad3a51ddf8993db90368323258baf0cd279d1dd[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: GERARDO LOPEZ <grd6@outlook.com>
+Date:   Tue Sep 1 08:09:16 2020 -0400
+
+    se agrego tablas de precios por persona a la pagina tarifa se agrega OPENICONIC
+
+[33mcommit cab252c83f4f04269c4210e4218ad4771894c7ee[m
+Author: GERARDO LOPEZ <grd6@outlook.com>
+Date:   Mon Aug 31 22:27:04 2020 -0400
+
+    se agrego Los labels agrupados con los controles correspondientes, y manteniendo la alineación y ubicación de los elementos de forma armónica. El formulario incluye campos de: email, de listado seleccionable, checkbox, texto y textarea.
+
+[33mcommit ceab5d67c407cdd7073e69e31cdbbdca57bbcf5c[m
+Author: GERARDO LOPEZ <grd6@outlook.com>
+Date:   Mon Aug 31 09:02:04 2020 -0400
+
+    Se actualiza barra de navegacion breadcrumbs , se agregan paginas contactos,tarifas,terminos y condiciones
+
+[33mcommit 59fcf00e60d880dcda801c8d77f35804d84dc549[m
+Author: GERARDO LOPEZ <grd6@outlook.com>
+Date:   Sat Aug 22 21:10:41 2020 -0400
+
+     se actuliza footer
+
+[33mcommit 9c3ea587e96a7ef87c14706c4411c20e2c5d2d19[m
+Author: GERARDO LOPEZ <grd6@outlook.com>
+Date:   Sat Aug 22 20:19:04 2020 -0400
+
+    se agrego menu y breadcrumb
+
+[33mcommit dd9390ef74e428da004d07388ceed9607d382528[m
+Author: GERARDO LOPEZ <grd6@outlook.com>
+Date:   Sun Aug 16 15:20:21 2020 -0400
+
+     correciones varias
+
+[33mcommit fbb286b53a76cb039dc6afbbb05a0e984e009f17[m
+Author: GERARDO LOPEZ <grd6@outlook.com>
+Date:   Sun Aug 16 14:08:25 2020 -0400
+
+    se corrige errores se actualiza ccs y index
+
+[33mcommit 10706c46c2f91fa38e1968206ecc3a77b06d29ec[m
+Author: Gerardo <grd6@outlook.com>
+Date:   Wed Jul 29 08:26:58 2020 -0400
+
+    se agrega contenido a ccs y se actualiza el index.html
+
+[33mcommit 96846a557faf35db282fd1949bcd2f0ef155eabf[m
+Author: Gerardo <grd6@outlook.com>
+Date:   Fri Jul 24 08:09:00 2020 -0400
+
+    un container con 3 párrafos utilizando los elementos p y un título con descripción a cada uno contando las principales características del product
+
+[33mcommit ec43969a3f0cb8f54167a79c7df0fb761228b069[m
+Author: Gerardo <grd6@outlook.com>
+Date:   Fri Jul 24 07:31:37 2020 -0400
+
+    se agrega bootstrap index y css
+
+[33mcommit 42e924b9bac06159b97b7b8b8151125f1f064b03[m
+Author: Gerardo <grd6@outlook.com>
+Date:   Thu Jul 23 07:39:06 2020 -0400
+
+    se incluyo litte server
+
+[33mcommit b9a1062342e3336a03ca7de29157ec89d92003c8[m
+Author: Gerardo <grd6@outlook.com>
+Date:   Thu Jul 23 07:09:28 2020 -0400
+
+    se inicializa el package.json
