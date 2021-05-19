@@ -9,13 +9,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@bitbucket.org/grd6/restaurantes.git"
+    "url": "git+ssh://github.com/grd6/restaurantes.git"
   },
   "author": "Gerardo Lopez",
   "license": "ISC",
   "homepage": "https://bitbucket.org/grd6/restaurantes#readme",
   "devDependencies": {
-    "lite-server": "^2.5.4"
+    "lite-server": "^2.6.1"
   },
   "dependencies": {
     "bootstrap": "^4.5.0",
