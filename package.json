@@ -13,7 +13,7 @@
   },
   "author": "Gerardo Lopez",
   "license": "ISC",
-  "homepage": "https://bitbucket.org/grd6/restaurantes#readme",
+  "homepage": "https://github.com/grd6/restaurante#readme",
   "devDependencies": {
     "lite-server": "^2.6.1"
   },
