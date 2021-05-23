@@ -55,7 +55,7 @@
           <a class="btn btn-primary as" data-toggle="collapse" href="#Quetegustariacomer" role="button"
             aria-expanded="false" data-target="#Quetegustariacomer" aria-controls="multiCollapse2">Donde Comer</a>
           <div class="collapse" id="Quetegustariacomer">
-              <p>Nos gustaria sugerir alternativas culinarias, de pendiendo de tus gusto.</p>
+            <p>Nos gustaria sugerir alternativas culinarias, de pendiendo de tus gusto.</p>
           </div>
         </div>
         <div>
@@ -71,10 +71,12 @@
           <div class="card">
             <img src="./img/castillo_forestal .jpeg" class="card-img-top" alt="...">
             <div class="card-body">
-              <h5 class="card-title">Castillo Forestal</h5>
+              <h5 class="card-title" data-toggle="popover" title="Oferta" data-content="De Lunes a miercoles 2x1" >Castillo Forestal </h5>
               <p class="card-text"> Cardenal José María Caro 390, Santiago, Región Metropolitana
                 9 4444 8531.</p>
-              <a href="#" class="btn btn-primary">Reservar</a>
+              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#contacto">
+                Contacto
+              </button>
             </div>
           </div>
         </div>
@@ -82,9 +84,11 @@
           <div class="card">
             <img src="./img/castillohome.jpg" class="card-img-top" alt="...">
             <div class="card-body">
-              <h5 class="card-title">Restaurante Bocanáriz.</h5>
+              <h5 class="card-title" data-toggle="popover" title="Oferta" data-content="De Lunes a Jueves 2x1" >Restaurante Bocanáriz.</h5>
               <p class="card-text"> José Victorino Lastarria 276, Santiago,Región Metropolitana 9 4444 8532 </p>
-              <a href="#" class="btn btn-primary ">Reservar</a>
+              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#contacto">
+                Contacto
+              </button>
             </div>
           </div>
         </div>
@@ -92,9 +96,11 @@
           <div class="card">
             <img src="./img/ticr_0_0.jpg" class="card-img-top" alt="...">
             <div class="card-body">
-              <h5 class="card-title">Holy Moly.</h5>
+              <h5 class="card-title" data-toggle="popover" title="Oferta" data-content="De Lunes a Martes ">Holy Moly.</h5>
               <p class="card-text"> Merced 461 Santiago Lastarria, Región Metropolitana, 9 45758000.</p>
-              <a href="#" class="btn btn-primary">Reservar</a>
+              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#contacto">
+                Contacto
+              </button>
             </div>
           </div>
         </div>
@@ -102,10 +108,49 @@
           <div class="card">
             <img src="./img/ticr_0_0 (1).jpg" class="card-img-top" alt="...">
             <div class="card-body">
-              <h5 class="card-title">Chipe Libre.</h5>
-              <p class="card-text">José Victorino Lastarria 282, Santiago, Metropolitana,
+              <h5 class="card-title" data-toggle="popover" title="Oferta" data-content="Los Lunes 2x1">Chipe Libre.</h5>
+              <p class="card-text" >José Victorino Lastarria 282, Santiago, Metropolitana,
                 9 888 384 5524</p>
-              <a href="#" class="btn btn-primary ">Reservar</a>
+              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#contacto">
+                Contacto
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal fade" id="contacto" tabindex="-1" role="dialog" aria-labelledby="ModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="Modal-Laber">Contacto</h5>
+              <button type="button" class="close" data-mismiss="modal" aria-label="close">
+                <span aria-hidden="true"></span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <form>
+                <div class="form-group">
+                  <label for="recipient-name" class="col-form-label">E-mail</label>
+                  <input type="text" class="form-control" id="recipient-name">
+                </div>
+                <div class="form-group">
+                  <label for="FormControlSelect1">Hoteles:</label>
+                  <select class="form-control" id="FormControlSelect1">
+                    <option>Castillo Forestal</option>
+                    <option>Restaurante Bocanáriz</option>
+                    <option>Holy Moly</option>
+                    <option>Chipe Libre</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <label for="mesage-text" class="col-form-label">Mensaje</label>
+                  <textarea class="form-control" id="mesage-text" ></textarea>
+                </div>
+              </form>
+
+            </div>
+            <div class="model-footer">
+              <button type="button" class="btn btn-primary">Enviar</button>
             </div>
           </div>
         </div>
@@ -113,9 +158,23 @@
     </div>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="node_modules/jquery/dist/jquery.min.js"></script>
-    <script src="node_modules/popper.js/dist/popper.min.js"></script>
-    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <!--<script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper-utils.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>-->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script>
+      $(function(){
+        $("[data-toggle='tooltip']").tooltip();
+      })
+    </script>
+    <script>
+      $(function(){
+        $("[data-toggle='popover']").popover();
+      })
+    </script>
+
 </body>
 <footer>
   <div class="footer">
@@ -143,3 +202,4 @@
 </footer>
 
 </html>
+
