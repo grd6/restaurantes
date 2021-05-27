@@ -18,12 +18,14 @@
 
 
 .footer{
+    left: 0;
+    bottom: 0;
+    width: 100%;
     background-color: gray ;
     color: white;
-    padding: 10px 10px 0 10px;  
-    margin-bottom: 0px;
-    margin-top: 10px;
-    align-items: flex-end;
+    text-align: center;
+    
+   
 }
 
 .btn-block{
@@ -56,3 +58,10 @@
 .as{
     margin: 10px;
 }
+
+
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+  }
+
